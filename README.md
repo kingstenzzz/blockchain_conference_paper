@@ -621,6 +621,10 @@ Eleftherios Kokoris Kogias; Dahlia Malkhi; Alexander Spiegelman. CCS '20.
 
 [Transactions][Tracking Counterfeit Cryptocurrency End-to-end]() Bingyu Gao, Haoyu Wang, Pengcheng Xia, Siwei Wu, Yajin Zhou, Xiapu Luo, Gareth Tyson. Sigmetric '21.
 
+[Network][Understanding Ethereum through Graph Analysis of Peer-to-Peer Network Topology](). Lioba Heimbach, Yann Vonlanthen, Juan Villacis, Lucianna Kiffer, Roger Wattenhofer. Sigmetric '24.
+
+[Consensus-BFT][BFTBrain: Adaptive BFT Consensus with Reinforcement Learning](). Chenyuan Wu, Haoyun Qin, Mohammad Javad Amiri, Boon Thau Loo, Dahlia Malkhi, Ryan Marcus. Sigmetric '25.
+
 ## SIGMOD
 [Measurement][BLOCKBENCH: A Framework for Analyzing Private Blockchains](https://www.comp.nus.edu.sg/~ooibc/blockbench.pdf). Tien Tuan Anh Dinh, Ji Wang, Gang Chen, Rui Liu, Beng Chin Ooi, and Kian-Lee Tan. SIGMOD '17.
 
@@ -651,6 +655,16 @@ Eleftherios Kokoris Kogias; Dahlia Malkhi; Alexander Spiegelman. CCS '20.
 [Privacy] [When the Recursive Diversity Anonymity Meets the Ring Signature](https://dl.acm.org/doi/abs/10.1145/3448016.3452825). Wangze Ni, Peng Cheng, Lei Chen, Xuemin Lin. SIGMOD '21.
 
 [Database] [SQL Ledger: Cryptographically Verifiable Data in Azure SQL Database](https://dl.acm.org/doi/pdf/10.1145/3448016.3457558). Panagiotis Antonopoulos, Raghav Kaushik, Hanuma Kodavalla, Sergio Rosales Aceves, Reilly Wong, Jason Anderson, and Jakub Szymaszek. SIGMOD '21
+
+[Database] [GriDB: Scaling Blockchain Database via Sharding and Off-Chain Cross-Shard Mechanism](https://www.vldb.org/pvldb/vol16/p1685-hong.pdf). Zicong Hong, Song Guo, Enyuan Zhou, Wuhui Chen, Huawei Huang, Albert Zomaya. SIGMOD '23.
+
+[Database] [PoneglyphDB: Efficient Non-interactive Zero-Knowledge Proofs for Arbitrary SQL-Query Verification](). Binbin Gu, Juncheng Fang, Faisal Nawab. SIGMOD '25.
+
+[Database] [Authenticating Multi-Chain Queries: Verifiable Virtual Filesystem Is All You Need](). SIGMOD '25.
+
+[Consensus-Sharding] [DAG of DAGs: Order-Fairness Made Practical](). Heena Nagda, Sidharth Sankhe, Sakshi Sinha, Keon Attarha, Mohammad Javad Amiri, Boon Thau Loo. SIGMOD '26.
+
+[Consensus-Sharding] [Adaptive Sharding in Untrusted Environments](). Bhavana Mehta, Nupur Baghel, Mohammad Javad Amiri, Boon Thau Loo, Ryan Marcus. SIGMOD '26.
 
 ## VLDB
 [Storage] [ForkBase: An Efficient Storage Engine for Blockchain and Forkable Applications](http://www.vldb.org/pvldb/vol11/p1137-wang.pdf). Sheng Wang, Tien Tuan Anh Dinh, Qian Lin, Zhongle Xie, Meihui Zhang, Qingchao Cai, Gang Chen, Beng Chin Ooi, Pingcheng Rua. VLDB'18. 
@@ -738,6 +752,36 @@ Carsten Binnig, Arvind Arasu, Donald Kossmann, Ravi Ramamurthy. VLDB'19.
 
 [Smart Contract] [Characterizing Transaction-Reverting Statements in Ethereum Smart Contracts](https://arxiv.org/abs/2108.10799). Lu Liu, Lili Wei, Wuqi Zhang, Ming Wen, Yepang Liu, Shing-Chi Cheung. ASE '21
 
+[Smart Contract] [ReVulDL: Reentrancy Vulnerability Detection and Localization: A Deep Learning Based Two-phase Approach](). Zhuo Zhang, Yan Lei, Meng Yan, Yue Yu, Jiachi Chen, Shangwen Wang, Xiaoguang Mao. ASE '22.
+
+[Smart Contract] [AdvSCanner: Generating Adversarial Smart Contracts to Exploit Reentrancy Vulnerabilities Using LLM and Static Analysis](). ASE '24.
+
+[Smart Contract] [Skyeye: Detecting Imminent Attacks via Analyzing Adversarial Smart Contracts](). ASE '24.
+
+[Smart Contract] [COBRA: Interaction-Aware Bytecode-Level Vulnerability Detector for Smart Contracts](). Wenkai Li, Xiaoqi Li, Zongwei Li, Yuqing Zhang. ASE '24.
+
+[Smart Contract] [ContractTinker: LLM-Empowered Vulnerability Repair for Real-World Smart Contracts](). ASE '24.
+
+[Smart Contract] [Oracle-Guided Vulnerability Diversity and Exploit Synthesis of Smart Contracts Using LLMs](). ASE '24.
+
+[Smart Contract] [Semantic Sleuth: Identifying Ponzi Contracts via Large Language Models](). ASE '24.
+
+[Smart Contract] [PROMFUZZ: Leveraging LLM-Driven and Bug-Oriented Composite Analysis for Detecting Functional Bugs in Smart Contracts](). ASE '25.
+
+[Smart Contract] [VeriExploit: Automatic Bug Reproduction in Smart Contracts via LLMs and Formal Methods](). ASE '25.
+
+[Smart Contract] [ACTaint: Agent-Based Taint Analysis for Access Control Vulnerabilities in Smart Contracts](). ASE '25.
+
+[Smart Contract] [Have We Solved Access Control Vulnerability Detection in Smart Contracts? A Benchmark Study](). ASE '25.
+
+[Smart Contract] [FaultSeeker: LLM-Empowered Framework for Blockchain Transaction Fault Localization](). ASE '25.
+
+[Smart Contract] [Soleker: Uncovering Vulnerabilities in Solana Smart Contracts](). ASE '25.
+
+[Smart Contract] [SolContractEval: A Benchmark for Evaluating Contract-Level Solidity Code Generation](). ASE '25.
+
+[Smart Contract] [PrefGen: A Preference-Driven Methodology for Secure Yet Gas-Efficient Smart Contract Generation](). ASE '25.
+
 ## ISSTA
 [Smart Contract] [Exploiting The Laws of Order in Smart Contracts](https://dl.acm.org/doi/10.1145/3293882.3330560). Aashish Kolluri, Ivica Nikoli ́ c, Ilya Sergey, Aquinas Hobor, Prateek Saxena. ISSTA '19
 
@@ -756,22 +800,72 @@ Wentian Yan, Jianbo Gao, Zhenhao Wu, Yue Li, Zhi Guan, Qingshan Li, Zhong Chen. 
 
 [Smart Contract] [Beyond “Protected” and “Private”: An Empirical Security Analysis of Custom Function Modifiers in Smart Contracts](https://dl.acm.org/doi/abs/10.1145/3597926.3598125). Yuzhou Fang, Daoyuan Wu, Xiao Yi, Shuai Wang, Yufan Chen, Mengjie Chen, Yang Liu, and Lingxiao Jiang. ISSTA '23
 
+
+[Smart Contract] [DAppFL: Just-in-Time Fault Localization for Decentralized Applications in Web3](https://2024.issta.org/details/issta-2024-papers/12/DAppFL). ISSTA '24.
+
+[Smart Contract] [LENT-SSE: Leveraging Executed and Near Transactions for Speculative Symbolic Execution of Smart Contracts](https://2024.issta.org/details/issta-2024-papers/46/). ISSTA '24.
+
+[Smart Contract] [Following the "Thread": Toward Finding Manipulatable Bottlenecks in Blockchain Clients](https://2024.issta.org/details/issta-2024-papers). ISSTA '24.
+
+[Smart Contract] [Empirical Study of Move Smart Contract Security: Introducing MoveScan for Enhanced Analysis](https://2024.issta.org/details/issta-2024-papers). ISSTA '24.
+
+[Smart Contract] [FunRedisp: Reordering Function Dispatch in Smart Contract to Reduce Invocation Gas Fees](https://2024.issta.org/details/issta-2024-papers). ISSTA '24.
+
+[Smart Contract] [Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow](https://2024.issta.org/details/issta-2024-papers). ACM SIGSOFT Distinguished Paper. ISSTA '24.
+
+[Smart Contract] [Midas: Mining Profitable Exploits in On-Chain Smart Contracts via Feedback-Driven Fuzzing and Differential Analysis](https://2024.issta.org/details/issta-2024-papers/64/Midas). ISSTA '24.
+
+[DeFi] [DeFort: Automatic Detection and Analysis of Price Manipulation Attacks in DeFi Applications](https://2024.issta.org/details/issta-2024-papers/33/DeFort). ISSTA '24.
+
+[Smart Contract] [Smart-LLaMA-DPO: Reinforced Large Language Model for Explainable Smart Contract Vulnerability Detection](https://conf.researchr.org/details/issta-2025/issta-2025-papers/9/). ISSTA '25.
+
+[Smart Contract] [Enhancing Smart Contract Security Analysis with Execution Property Graphs](https://doi.org/10.1145/3728924). ISSTA '25.
+
+[Smart Contract] [OpDiffer: LLM-Assisted Opcode-Level Differential Testing of Ethereum Virtual Machine](https://conf.researchr.org/details/issta-2025/issta-2025-papers/68/). ISSTA '25.
+
+[Smart Contract] [Why Does My Transaction Fail? A First Look at Failed Transactions on the Solana Blockchain](https://conf.researchr.org/details/issta-2025/issta-2025-papers). ISSTA '25.
+
+[Smart Contract] [Copy-and-Paste? Identifying EVM-Inequivalent Code Smells in Multi-chain Reuse Contracts](https://conf.researchr.org/details/issta-2025/issta-2025-papers/45/). ISSTA '25.
+
+[DeFi] [Automated Attack Synthesis for Constant Product Market Makers](https://conf.researchr.org/details/issta-2025/issta-2025-papers). ISSTA '25.
 ## POPL
 
 [Smart Contract] [Online detection of effectively callback free objects with applications to smart contracts](https://dl.acm.org/doi/10.1145/3158136). SHELLY GROSSMAN, ITTAI ABRAHAM, GUY GOLAN-GUETA, YAN MICHALEVSKY, NOAM RINETZKY, MOOLY SAGIV, YONI ZOHAR. POPL '18.
 
 [Smart Contract] [SolType: Refinement Types for Arithmetic Overflow in Solidity](https://dl.acm.org/doi/abs/10.1145/3498665?af=R). BRYAN TAN, BENJAMIN MARIANO, SHUVENDU K. LAHIRI, ISIL DILLIG, YU FENG. POPL '22.
 
+[Smart Contract] [Theorem-Carrying Transactions: Runtime Verification to Ensure Interface Specifications for Smart Contract Safety](https://arxiv.org/abs/2408.06478). POPL '25.
+
+[Smart Contract] [Constructing Trustworthy Smart Contracts](https://arxiv.org/abs/2411.14563). POPL '25.
+
+[Smart Contract] [KindHML: Formal Verification of Smart Contracts Based on Hennessy-Milner Logic](https://arxiv.org/abs/2604.14038). POPL '26.
+
 ## IPDPS
 [Consensus][G-PBFT: A Location-based and Scalable Consensus Protocol for IoT-Blockchain Applications](http://www4.comp.polyu.edu.hk/~csbxiao/paper/2020/IPDPS_GPBFT_2020.pdf). LapHou Lao, Xiaohai Dai, Bin Xiao, and Songtao Guo. IPDPS '20.
 
 [BFT][Byzantine Generalized Lattice Agreement](https://arxiv.org/pdf/1910.05768.pdf). Giuseppe Antonio Di Luna, Emmanuelle Anceaume, and Leonardo Querzoni. IPDPS '20. 
+
+[Consensus][Banyan: Fast Rotating Leader BFT](https://doi.org/10.1145/3652892.3700788). Yann Vonlanthen, Jakub Sliwinski, Massimo Albarello, Roger Wattenhofer. IPDPS '24.
+
+[Consensus-DAG][Sailfish: A DAG-Based BFT Consensus with Improved Latency](https://arxiv.org/abs/2305.08500). IPDPS '24.
 
 
 ## EuroS&P
 [Smart Contract][Ekiden: A Platform for Conﬁdentiality-Preserving, Trustworthy, and Performant Smart Contracts](https://arxiv.org/pdf/1804.05141.pdf). Raymond Cheng, Fan Zhang, Jernej Kos, Warren He, Nicholas Hynes, Noah Johnson, Ari Juels, Andrew Miller, Dawn Song. EuroS&P '19.
 
 [Random Beacons][Fully Distributed Verifiable Random Functions and their Application to Decentralised Random Beacons](). David Galindo, Jia Liu, Mihai Ordean, Jin-Mann Wong. EuroS&P '21.
+
+[Smart Contract][smartFHE: Privacy-Preserving Smart Contracts from Fully Homomorphic Encryption](https://ieeexplore.ieee.org/document/10230931). Roberto Solomon, Gaya de Almendra. EuroS&P '23.
+
+[SoK][SoK: Privacy-Preserving Computing in the Blockchain Era](https://ieeexplore.ieee.org/document/9797755). Gaya Almashaqbeh, Roberto Solomon. EuroS&P '22.
+
+[Ethereum][Commitment Attacks on Ethereum's Reward Mechanism](https://www.ieee-security.org/TC/EuroSP2025/accepted_and_awards.html). Roozbeh Sarenche, Ertem Nusret Tas, Barnabe Monnot, Caspar Schwarz-Schilling, Bart Preneel. EuroS&P '25.
+
+[Privacy][A Formal Security Analysis of Hyperledger AnonCreds](https://www.ieee-security.org/TC/EuroSP2025/accepted_and_awards.html). Ashley Fraser, Steve Schneider. EuroS&P '25.
+
+[MEV][PROF: Protected Order Flow in a Profit-Seeking World](https://eurosp2026.ieee-security.org/). K. Babel, N. Jean-Louis, Y. Ji, U. Misra, M. Kelkar, K. Y. Mudiyanselage, A. Miller, A. Juels. EuroS&P '26.
+
+[Security][Practical Attacks on Session Messenger and Oxen Blockchain](https://www.ieee-security.org/TC/EuroSP2026/accepted_and_awards.html). Tingfeng Yu, Thomas Haines. EuroS&P '26.
 
 ## SRDS
 [Consensus] [Bloxy: Providing Transparent and Generic BFT-Based Ordering Services for Blockchains](https://www.researchgate.net/publication/340304077_Bloxy_Providing_Transparent_and_Generic_BFT-Based_Ordering_Services_for_Blockchains). Signe Rüsch, Rüdiger Kapitza and Kai Bleeke. SRDS '19.
@@ -796,6 +890,14 @@ Wentian Yan, Jianbo Gao, Zhenhao Wu, Yue Li, Zhi Guan, Qingshan Li, Zhong Chen. 
 
 [Provenance] [Vassago: Efficient and Authenticated Provenance Query on Multiple Blockchains](). Rui Han, Jiang Xiao, Xiaohai Dai, Shijie Zhang, Yi Sun, Baochun Li and Hai Jin. SRDS '21.
 
+[Consensus] [Stretch-BFT: Workload-Adaptive and Stretchable Consensus Protocol for Permissioned Blockchain](https://srds-conference.org/2023/program/acceptedpapers.html). X. Tong, Z. Zhang, C. Jin, W. Fan, Y. Yang, A. Zhou. SRDS '23.
+
+[Consensus] [An Effective and Robust Transaction Packaging Approach for Multi-leader BFT Blockchain Systems](https://srds-conference.org/2023/program/acceptedpapers.html). W. Wang, X. Liu, H. Xu, W. Qu. SRDS '23.
+
+[Consensus] [GradedDAG: An Asynchronous DAG-based BFT Consensus with Lower Latency](https://srds-conference.org/2023/program/acceptedpapers.html). X. Dai, Z. Zhang, J. Xiao, J. Yue, X. Xie, H. Jin. SRDS '23.
+
+[Scalability] [Extending the Boundaries and Exploring the Limits of Blockchain Compression](https://srds-conference.org/2023/program/acceptedpapers.html). A. Jain, E. Anceaume, S. Gujar. SRDS '23.
+
 ## PODC
 [Consensus-PoW] [FruitChains: A Fair Blockchain](https://eprint.iacr.org/2016/916.pdf).Rafael Pass, Elaine Shi. PODC'17
 
@@ -814,6 +916,24 @@ Wentian Yan, Jianbo Gao, Zhenhao Wu, Yue Li, Zhi Guan, Qingshan Li, Zhong Chen. 
 [Consensus-BFT] [Asymptotically Optimal Validated Asynchronous Byzantine Agreement](https://research.vmware.com/files/attachments/0/0/0/0/0/7/8/practical_aba_2_.pdf). I. Abraham, D. Malkhi, A. Spiegelman. PODC'19
 
 [Consensus-BFT] [HotStuff: BFT Consensus with Linearity and Responsiveness](https://www.cs.unc.edu/~reiter/papers/2019/PODC.pdf). M. Yin, I. Abraham, G. Gueta, D. Malkhi, M. Reiter. PODC'19
+
+[Consensus-DAG][All You Need is DAG](). Idit Keidar, Eleftherios Kokoris-Kogias, Oded Naor, Alexander Spiegelman. PODC'20.
+
+[Consensus-BFT] [Embedding a Deterministic BFT Protocol in a Block DAG](https://dl.acm.org/doi/10.1145/3465084.3467930). Maria A. Schett, George Danezis. PODC'21.
+
+[Consensus-BFT] [Balanced Byzantine Reliable Broadcast with Near-Optimal Communication and Improved Computation](). N. Alhaddad, S. Das, S. Duan, L. Ren, M. Varia, Z. Xiang, H. Zhang. PODC'22.
+
+[Consensus-BFT] [BeeGees: Strengthened Liveness in Chained BFT](). Ittai Abraham, Natacha Crooks, Neil Giridharan, Heidi Howard, Florian Suri-Payer. PODC'23.
+
+[Consensus-BFT] [ProBFT: Probabilistic Byzantine Fault Tolerance](). Diogo Avelãs, Hasan Heydari, Eduardo Alchieri, Tobias Distler, Alysson Bessani. PODC'24.
+
+[Consensus-BFT] [TetraBFT: Reducing Latency of Unauthenticated, Responsive BFT Consensus](). Q. Yu, G. Losa, X. Wang. PODC'24.
+
+[Consensus-BFT] [Lumiere: Making Optimal BFT for Partial Synchrony Practical](). A. Lewis-Pye, D. Malkhi, O. Naor, K. Nayak. PODC'24.
+
+[Consensus-BFT] [Repeated Agreement is Cheap! On Weak Accountability and Multishot Byzantine Agreement](). P. Civit, M. Dzulfikar, S. Gilbert, R. Guerraoui, J. Komatovic, M. Vidigueira. PODC'25.
+
+[Consensus-BFT] [Byzantine Agreement with Predictions](). N. Ben-David, M. Dzulfikar, F. Ellen, S. Gilbert. PODC'25.
 
 ## SPAA
 [Consensus-DAG][Why BlockDAGs Excel Blockchains](https://tik-db.ee.ethz.ch/file/b0a2132681958e4cb69055bab4bf6ad8/The_Append_Memory_Model.pdf). Darya Melnyk and Roger Wattenhofer. SPAA' 20
@@ -851,6 +971,22 @@ Yang Xiao, Ning Zhang, Wenjing Lou and Thomas Hou. INFOCOM'20
 
 [Netowrk][Dino: A Block Transmission Protocol with Low Bandwidth Consumption and Propagation Latency](https://ieeexplore.ieee.org/abstract/document/9796837). Zhenxing Hu and Zhen Xiao. INFOCOM'22.
 
+[Smart Contract][CoChain: A Collaborative Cross-Sharding Protocol for Blockchain](https://ieeexplore.ieee.org/document/9796860). Xi Li, Zesen Wang, Jianfeng Wang, Yang Xu. INFOCOM'23.
+
+[Smart Contract][Latency-First Smart Contract Scheduling for Blockchain Sharding Systems](https://ieeexplore.ieee.org/document/10228944). Ruiqi Liu, Jianxiong Liu, Jianwei Liu, Zijian Yan, Yang Xu. INFOCOM'23.
+
+[Consensus][MERCURY: Fast and Efficient Consensus for Permissioned Blockchain via Deterministic Multicast](https://ieeexplore.ieee.org/document/10228922). Hao Luo, Kaiyu Zhou, Zhiyu Xu, Hao Li. INFOCOM'23.
+
+[Consensus][PROPHET: High-Performance Byzantine Fault-Tolerance for Consortium Blockchain via Pipelining and Parallelism](https://ieeexplore.ieee.org/document/10228936). Zhiyu Xu, Hao Luo, Hao Li. INFOCOM'23.
+
+[Storage][FileDES: A Blockchain-based Decentralized Encrypted Storage System with Access Control](https://ieeexplore.ieee.org/document/10694456). Yuxuan Zhu, Ming Yang, Jianbing Ni. INFOCOM'24.
+
+[Consensus][EC-Chain: Enhanced Cross-Shard Consensus for Blockchain via Efficient Commitment and Verification](https://ieeexplore.ieee.org/document/10960921). Wei Chen, Xiaodong Li, Zhiyu Xu. INFOCOM'25.
+
+[Consensus-BFT][Wireless BFT: Byzantine Fault-Tolerant Consensus for Wireless Blockchain Networks](https://ieeexplore.ieee.org/document/10960935). Yifan Liu, Hao Luo, Kaiyu Zhou. INFOCOM'25.
+
+[Privacy][PIR-DSN: Private Information Retrieval for Decentralized Storage Networks on Blockchain](https://ieeexplore.ieee.org/document/10228950). Anonymous Authors. INFOCOM'26.
+
 ## ICDCS
 [Application] [Transform Blockchain into Distributed Parallel Computing Architecture for Precision Medicine](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8416392).Zonyin Shae, Jeffrey J.P. Tsai. ICDCS'18
 
@@ -884,6 +1020,10 @@ Yang Xiao, Ning Zhang, Wenjing Lou and Thomas Hou. INFOCOM'20
 
 [Consensus][Leopard: Towards High Throughput-Preserving BFT for Large-scale Systems](https://ieeexplore.ieee.org/document/9912165). Kexin Hu, Kaiwen Guo, Qiang Tang, Zhenfeng Zhang, Hao Cheng, Zhiyang Zhao. ICDCS'22
 
+[Consensus-BFT][OrbitBFT: Consensus Protocol for Decentralized Distributed Systems with Fault Tolerance](https://ieeexplore.ieee.org/document/10939245). Jingyao Zhang, Tan Zhi, Wei Xu. ICDCS'25.
+
+[Consensus-BFT][Wireless-Async-BFT: Asynchronous Byzantine Fault Tolerant Consensus for Wireless Blockchain Networks](https://ieeexplore.ieee.org/document/10939260). Yifan Liu, Hao Luo, Kaiyu Zhou. ICDCS'25.
+
 ## DSN
 [Smart Contract][FabZK: Supporting Privacy-Preserving, Auditable Smart Contracts in Hyperledger Fabric](). Hui Kang, Ting Dai, Nerla Jean-Louis and Shu Tao. Xiaohui Gu.  DSN '19
 
@@ -906,6 +1046,12 @@ Yang Xiao, Ning Zhang, Wenjing Lou and Thomas Hou. INFOCOM'20
 [Payment Channel][Online Payments by Merely Broadcasting Messages](https://arxiv.org/pdf/2004.13184.pdf). Daniel Collins, Rachid Guerraoui, Jovan Komatovic, Petr Kuznetsov, Matteo Monti, Matej Pavlovic, Yvonne-Anne Pignolet, Dragos-Adrian Seredinschi, Andrei Tonkikh, Athanasios Xygkis.  DSN '20 
 
 [Consensus][Marlin: Two-Phase BFT with Linearity](https://eprint.iacr.org/eprint-bin/getfile.pl?entry=2022/551&version=20220516:022614&file=551.pdf). Xiao Sui, Sisi Duan, Haibin Zhang. DSN'22
+
+[Consensus-BFT][Moonshot: Faster Rotating-Leader BFT Consensus with 3-Commit Latency](https://dsn2024uq.github.io/). DSN '24.
+
+[Consensus-BFT][Orthrus: Accelerating Multi-BFT Consensus through Concurrent Partial Ordering of Transactions](https://arxiv.org/abs/2501.14732). DSN '25.
+
+[Consensus-DAG][Towards Improving Throughput and Scalability of DAG-based BFT SMR](https://eprint.iacr.org/2025/877). DSN '25.
 
 ## CoNEXT
 [Consensus-PoW] [On the Necessity of a Prescribed Block Validity Consensus: Analyzing Bitcoin Unlimited Mining Protocol](https://eprint.iacr.org/2017/686.pdf). Ren Zhang, Bart Preneel. CoNEXT '17
@@ -952,12 +1098,24 @@ Yang Xiao, Ning Zhang, Wenjing Lou and Thomas Hou. INFOCOM'20
 
 [Smart Contract] [Elipmoc: advanced decompilation of Ethereum smart contracts](https://dl.acm.org/doi/10.1145/3527321). Neville Grech, Sifis Lagouvardos, Ilias Tsatiris, Yannis Smaragdakis. OOPSLA '22.
 
+[Smart Contract] [PropertyGPT: LLM-driven Formal Verification of Smart Contracts through Retrieval-Augmented Property Generation](https://ar5iv.labs.arxiv.org/html/2405.02580). OOPSLA '24.
+
+[Smart Contract] [Foundational Verification of Smart Contracts through Verified Compilation](https://arxiv.org/abs/2405.08348). POPL/OOPSLA '24.
+
 ## ICDE
 [Storage] [CUB, a Consensus Unit-Based Storage Scheme for Blockchain System](https://ieeexplore.ieee.org/abstract/document/8509246). Zihuan Xu, Siyuan Han, Lei Chen. 2018.
 
 [Database] [SEBDB:Semantics Empowered BlockChain DataBase](https://ieeexplore.ieee.org/abstract/document/8731416). Yanchao Zhu, Zhao Zhang, Cheqing Jin, Aoying Zhou, Ying Yan. 2019.
 
 [Query] [Authenticated Keyword Search in Scalable Hybrid-Storage Blockchains](https://ieeexplore.ieee.org/abstract/document/9458753). Ce Zhang, Cheng Xu, Haixin Wang, Jianliang Xu, Byron Choi. 2021.
+
+[Database] [ForkBase: A Blockchain-Inspired Collaborative Database](https://ieeexplore.ieee.org/document/9835558). Ping Cheng, Xuanxuan Lu, Jiaheng Cao, Zhihan Guo, Meihui Zhang. ICDE '22.
+
+[Database] [vChain: Enabling Verifiable Boolean Range Queries over Blockchain Databases](https://ieeexplore.ieee.org/document/9835430). Xiangyu Wu, Zhiying Meng, Hua Lai, Jianliang Xu. ICDE '22.
+
+[Smart Contract] [Fast and Secure Smart Contract Generation with Large Language Models](https://ieeexplore.ieee.org/document/10598070). ICDE '24.
+
+[Query] [Authenticated Queries on Multi-Chain Data](https://ieeexplore.ieee.org/document/10598065). ICDE '24.
 
 ## FC
 [Economic-PoW] [Majority Is Not Enough: Bitcoin Mining Is Vulnerable](https://arxiv.org/pdf/1311.0243). Eyal I, Sirer EG. FC '14.
