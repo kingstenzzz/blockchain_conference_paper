@@ -241,6 +241,24 @@ and Edward W. Felten. USENIX '18 Security Symposium.
 
 [Smart Contract][Proxy Hunting: Understanding and Characterizing Proxy-based Upgradeable Smart Contracts in Blockchains](https://www.usenix.org/conference/usenixsecurity23/presentation/bodell) William E Bodell III, Sajad Meisami, and Yue Duan. USENIX '23 Security Symposium.
 
+[Consensus] [Does Finality Gadget Finalize Your Block? A Case Study of Binance Consensus](). Rujia Li, Jingyuan Ding, Qin Wang, Keting Jia, Haibin Zhang, Sisi Duan. USENIX Security '25.
+
+[Consensus-PoS] [Available Attestation: Towards a Reorg-Resilient Solution for Ethereum Proof-of-Stake](). Mingfei Zhang, Rujia Li, Xueqian Lu, Sisi Duan. USENIX Security '25.
+
+[MEV] [BEAT-MEV: Epochless Approach to Batched Threshold Encryption for MEV Prevention](). Jan Bormet, Sebastian Faust, Hussien Othman, Ziyan Qu. USENIX Security '25.
+
+[Smart Contract] [Approve Once, Regret Forever: On the Exploitation of Ethereum's Approve-TransferFrom Ecosystem](). Nicola Ruaro, Fabio Gritti, Dongyu Meng, Robert McLaughlin, Ilya Grishchenko, Christopher Kruegel, Giovanni Vigna. USENIX Security '25.
+
+[Network] [Deanonymizing Ethereum Validators: The P2P Network Has a Privacy Issue](). Lioba Heimbach, Yann Vonlanthen, Juan Villacis, Lucianna Kiffer, Roger Wattenhofer. USENIX Security '25.
+
+[Fee] [Auspex: Unveiling Inconsistency Bugs of Transaction Fee Mechanism in Blockchain](). Zheyuan He, Zihao Li, Jiahao Luo, Feng Luo, Junhan Duan, Jingwei Li, Shuwei Song, Xiapu Luo, Ting Chen, Xiaosong Zhang. USENIX Security '25.
+
+[Payment Channel] [Thunderdome: Timelock-Free Rationally-Secure Virtual Channels](). Zeta Avarikioti, Yuheng Wang, Yuyi Wang. USENIX Security '25.
+
+[Crypto] [BulletCT: Towards More Scalable Ring Confidential Transactions With Transparent Setup](). USENIX Security '25.
+
+[Smart Contract] [Secure Virtual Channels](). USENIX Security '25.
+
 [Crypto-Meme] [A Midsummer Meme's Dream: Investigating Market Manipulations in the Meme Coin Ecosystem](). Alberto Maria Mongardini, Alessandro Mei. USENIX Security '26.
 
 [Sharding] [Logos: Robust Sharding Blockchain With Fast Processing and Optimal Cross-Shard Overhead](). USENIX Security '26.
@@ -498,9 +516,17 @@ Eleftherios Kokoris Kogias; Dahlia Malkhi; Alexander Spiegelman. CCS '20.
 
 [Consensus][Interchain Timestamping for Mesh Security](). Ertem Nusret Tas, Runchao Han, David Tse, Mingchao Yu. CCS '23. 
 
+[Consensus] [Sui Lutris: A Blockchain Combining Broadcast and Consensus](). Sam Blackshear, Andrey Chursin, George Danezis, Anastasios Kichidis, Lefteris Kokoris-Kogias, Xun Li, Mark Logan, Ashok Menon, Todd Nowacki, Alberto Sonnino, Brandon Williams, Lu Zhang. CCS '24.
+
 [ZK-Rollup] [Towards a Formal Foundation for Blockchain ZK Rollups](). CCS '25.
 
 [Consensus-Fairness] [Ambush Attack on Batch-Order Fair Byzantine Consensus](). CCS '25.
+
+[Consensus] [Aegis: Tethering a Blockchain with Primary-Chain Stake](). CCS '25.
+
+[Security] [Denial of Sequencing Attacks in Ethereum Layer 2 Rollups](). CCS '25.
+
+[Sharding] [Camael: Realizing Corrupted-Shard Tolerance in Sharding Blockchain](). CCS '25.
 
 ## SOSP
 [Consensus] [Algorand: Scaling Byzantine Agreements for Cryptocurrencies](https://people.csail.mit.edu/nickolai/papers/gilad-algorand.pdf). Yossi Gilad, Rotem Hemo, Silvio Micali, Georgios Vlachos, Nickolai Zeldovich. SOSP'17
@@ -523,6 +549,10 @@ Eleftherios Kokoris Kogias; Dahlia Malkhi; Alexander Spiegelman. CCS '20.
 
 [Consensus] [Flexible-Advancement in Asynchronous BFT Consensus](). Shengyun Liu, Wenbo Xu, Chen Shan, Xiaofeng Yan, Tianjing Xu, Bo Wang, Lei Fan, Fuxi Deng, Ying Yan and Hui Zhang. SOSP'23 
 
+[Consensus] [Autobahn: Seamless High Speed BFT](). Neil Giridharan, Florian Suri-Payer, Ittai Abraham, Lorenzo Alvisi, Natacha Crooks. SOSP'24.
+
+[Database] [Pesto: Cooking up High Performance BFT Queries](). Florian Suri-Payer, Neil Giridharan, Liam Arzola, Shir Cohen, Lorenzo Alvisi, Natacha Crooks. SOSP'25.
+
 ## OSDI
 [System][Blockene: A High-throughput Blockchain Over Mobile Devices](https://arxiv.org/pdf/2010.07277). Sambhav Satija and Apurv Mehra, Sudheesh Singanamalla, Karan Grover, Muthian Sivathanu, Nishanth Chandran, Divya Gupta, and Satya Lokam. OSDI'20 
 
@@ -531,6 +561,8 @@ Eleftherios Kokoris Kogias; Dahlia Malkhi; Alexander Spiegelman. CCS '20.
 [Smart Contract][Finding Consensus Bugs in Ethereum via Multi-transaction Differential Fuzzing](https://www.usenix.org/system/files/osdi21-yang.pdf). Youngseok Yang, Taesoo Kim, Byung-Gon Chun. OSDI'21
 
 [Decentralized Service][Bringing Decentralized Search to Decentralized Services](https://www.usenix.org/system/files/osdi21-li.pdf). Mingyu Li, Jinhao Zhu, Tianxu Zhang, Cheng Tan, Sebastian Angel, and Haibo Chen. OSDI'21
+
+[Consensus] [Chop Chop: Accelerating Atomic Broadcast by Two Orders of Magnitude with Distilled Batches](). Ludovico Camaioni, Antonio Fernandez Anta, Chryssa Papadavid, Cesar Sánchez. OSDI'24.
 
 ## Eurosys
 [Consensus] [Hybrids on Steroids: SGX-Based High Performance BFT](https://www4.cs.fau.de/Publications/2017/behl_17_eurosys.pdf). Johannes Behl, Tobias Distler, Rüdiger Kapitza. EuroSys'17.
@@ -568,6 +600,12 @@ Eleftherios Kokoris Kogias; Dahlia Malkhi; Alexander Spiegelman. CCS '20.
 [System][SPEEDEX: A Scalable, Parallelizable, and Economically Efficient Decentralized EXchange](https://www.usenix.org/system/files/nsdi23-ramseyer.pdf). Geoffrey Ramseyer, Ashish Goel, David Mazières. NSDI '23
 
 [System][Hamilton: A High-Performance Transaction Processor for Central Bank Digital Currencies](https://www.usenix.org/system/files/nsdi23-lovejoy.pdf). James Lovejoy, Madars Virza, Cory Fields, Kevin Karwaski, Anders Brownworth, Neha Narula. NSDI '23
+
+[Consensus] [Alea-BFT: Practical Asynchronous Byzantine Fault Tolerance](). Diogo S. Antunes, Afonso N. Oliveira, André Breda, Matheus Guilherme Franco, Henrique Moniz, Rodrigo Rodrigues. NSDI '24.
+
+[System] [Bedrock: A Unified Platform for BFT Protocols Analysis, Implementation, and Experimentation](). Mohammad Javad Amiri, Chenyuan Wu, Divyakant Agrawal, Amr El Abbadi, Boon Thau Loo, Mohammad Sadoghi. NSDI '24.
+
+[Consensus] [Shoal++: High Throughput DAG BFT Can Be Fast and Robust!](). Balaji Arun, Zekun Li, Florian Suri-Payer, Sourav Das, Alexander Spiegelman. NSDI '25.
 
 [Smart Contract] [Vegeta: Enabling Parallel Smart Contract Execution in Leaderless Blockchains](). Tianjing Xu, Yongqi Zhong, Yiming Zhang, Ruofan Xiong, Jingjing Zhang, Guangtao Xue, Shengyun Liu. NSDI '25.
 
