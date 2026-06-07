@@ -60,6 +60,18 @@ Key Words: Topics: System Architecture, Consensus(Proof-of-X and BFT), Layer 2 (
 
 [Consensus-Sleepy] [Optimal Good-Case Latency for Sleepy Consensus](). EUROCRYPT '26.
 
+[Consensus-MEV] [Ordering Transactions with Bounded Unfairness: Definitions, Complexity and Constructions](https://doi.org/10.1007/978-3-031-58734-4_2). Aggelos Kiayias, Nikos Leonardos, Yu Shen. EUROCRYPT '24.
+
+[Network] [Asymptotically Optimal Message Dissemination with Applications to Blockchains](https://doi.org/10.1007/978-3-031-58734-4_3). Chen-Da Liu-Zhang, Christian Matt, Søren Eller Thomsen. EUROCRYPT '24.
+
+[Consensus-PoW] [Proof-of-Work-Based Consensus in Expected-Constant Time](https://doi.org/10.1007/978-3-031-58734-4_4). Juan Garay, Aggelos Kiayias, Yu Shen. EUROCRYPT '24.
+
+[Privacy] [A Holistic Security Analysis of Monero Transactions](https://doi.org/10.1007/978-3-031-58734-4_5). Cas Cremers, Julian Loss, Benedikt Wagner. EUROCRYPT '24.
+
+[Crypto] [Foundations of Adaptor Signatures](https://doi.org/10.1007/978-3-031-58723-8_6). Philipp Gerhart, Dominique Schröder, Pratik Soni, Sri Aravinda Krishnan Thyagarajan. EUROCRYPT '24.
+
+[Crypto] [Concurrently Secure Blind Schnorr Signatures](https://doi.org/10.1007/978-3-031-58723-8_5). Georg Fuchsbauer, Mathias Wolf. EUROCRYPT '24.
+
 ## S&P
 [Privacy] [Zerocoin: Anonymous distributed e-cash from bitcoin](http://ieeexplore.ieee.org/iel7/6547086/6547088/06547123.pdf). Miers I, Garman C, Green M, Rubin AD. S&P '13.
 
@@ -1060,6 +1072,30 @@ Yang Xiao, Ning Zhang, Wenjing Lou and Thomas Hou. INFOCOM'20
 
 [Consensus][Strengthened Fault Tolerance in Byzantine Fault Tolerant Replication](https://arxiv.org/abs/2101.03715). Zhuolun Xiang, Dahlia Malkhi, Kartik Nayak, Ling Ren. ICDCS'21
 
+[System] [A Data Flow Framework with High Throughput and Low Latency for Permissioned Blockchains](). Zhenxing Hu, Shengjie Guan, Wenbo Xu, Zhen Xiao, Jie Shi, Pengze Li, Qiuyu Ding, Hui Ding, Chao Zeng. ICDCS'23
+
+[Application] [AcBF: A Revocable Blockchain-based Identity Management Enabling Low-Latency Authentication](). Jianan Hong, Jiayue Zhou, Yuqing Li, Jia Cheng, Cunqing Hua. ICDCS'24
+
+[Privacy] [CORE: Transaction Commit-Controlled Release of Private Data over Blockchains](). Shan Wang, Ming Yang, Jiannong Cao, Zhen Ling, Qiang Tang, Xinwen Fu. ICDCS'24
+
+[Sharding] [Orbit: A Dynamic Account Allocation Mechanism In Sharding Blockchain System](). Xin Wang, Bo Li, Linpeng Jia, Yi Sun. ICDCS'24
+
+[Query] [CubeChain: Generalized Query Framework for Intra- and Cross-Chain Scenarios](). Haochen Ren, Xiulong Liu, Hao Xu, Chenyu Zhang, Keqiu Li. ICDCS'24
+
+[Consensus] [Enabling High-Performance EOV Blockchains via Transaction Ordering Exploration](). Mei Yu, Yihan Zhao, Jianrong Wang, Dengcheng Hu, Xiulong Liu, Qi Li, Keqiu Li. ICDCS'24
+
+[Sidechain] [USSC: Universal and Storage-efficient Sidechains](). Taotao Li, Huawei Huang, Lingyuan Yin, Siyuan Yao, Zibin Zheng. ICDCS'24
+
+[System] [Hammer: A General Blockchain Evaluation Framework](). Gang Wang, Yanfeng Zhang, Chenhao Ying, Xiaohua Li, Ge Yu. ICDCS'24
+
+[Consensus] [SG-FCB: A Stackelberg Game-Driven Fair Committee-based Blockchain Consensus Protocol](). Ningbin Yang, Chunming Tang, Zehui Xiong, Qian Chen, Jiawen Kang, Debiao He. ICDCS'24
+
+[Payment] [Universal and Trustless Large-Value Payments in Cryptocurrencies](). Zihan Liu, Chao Lin, Debiao He, Xinyi Huang, Lang Pu. ICDCS'24
+
+[Network] [Depermissioning Web3: a Permissionless Accountable RPC Protocol for Blockchain Networks](). Weihong Wang, Tom Van Cutsem. ICDCS'25
+
+[Sharding] [A Novel Reputation-based Sharding Blockchain System in Edge Sensor Networks](). Jiarui Zhang, Yuanyuan Yang. ICDCS'25
+
 [Consensus][Leopard: Towards High Throughput-Preserving BFT for Large-scale Systems](https://ieeexplore.ieee.org/document/9912165). Kexin Hu, Kaiwen Guo, Qiang Tang, Zhenfeng Zhang, Hao Cheng, Zhiyang Zhao. ICDCS'22
 
 ## DSN
@@ -1153,6 +1189,10 @@ Yang Xiao, Ning Zhang, Wenjing Lou and Thomas Hou. INFOCOM'20
 [Smart Contract] [Elipmoc: advanced decompilation of Ethereum smart contracts](https://dl.acm.org/doi/10.1145/3527321). Neville Grech, Sifis Lagouvardos, Ilias Tsatiris, Yannis Smaragdakis. OOPSLA '22.
 
 [Smart Contract] [Asparagus: Automated Synthesis of Parametric Gas Upper-Bounds for Smart Contracts](https://2023.splashcon.org/details/splash-2023-oopsla/63/). Zhuo Cai, Soroush Farokhnia, Amir Kafshdar Goharshady, S. Hitarth. OOPSLA '23.
+
+[Smart Contract] [Practical Verification Of Smart Contracts Using Memory Splitting](https://2024.splashcon.org/details/splash-2024-oopsla/139/). Shelly Grossman, Alexander Bakst, Sameer Arora, John Toman, Chandrakana Nandi, Mooly Sagiv. OOPSLA '24.
+
+[Smart Contract] [VarLifter: Recovering Variables and Types from Bytecode of Solidity Smart Contracts](https://2024.splashcon.org/details/splash-2024-oopsla/54/). Yichuan Li, Wei Song, Jeff Huang. OOPSLA '24.
 
 [Security] [Divide and Conquer: A Compositional Approach to Game-Theoretic Security](https://2025.splashcon.org/details/OOPSLA/141/). Ivana Bocevska, Anja Petković Komel, Laura Kovács, Sophie Rain, Michael Rawson. OOPSLA '25.
 
