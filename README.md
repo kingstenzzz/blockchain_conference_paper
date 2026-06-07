@@ -834,20 +834,12 @@ Wentian Yan, Jianbo Gao, Zhenhao Wu, Yue Li, Zhi Guan, Qingshan Li, Zhong Chen. 
 
 [Smart Contract] [SolType: Refinement Types for Arithmetic Overflow in Solidity](https://dl.acm.org/doi/abs/10.1145/3498665?af=R). BRYAN TAN, BENJAMIN MARIANO, SHUVENDU K. LAHIRI, ISIL DILLIG, YU FENG. POPL '22.
 
-[Smart Contract] [Theorem-Carrying Transactions: Runtime Verification to Ensure Interface Specifications for Smart Contract Safety](https://arxiv.org/abs/2408.06478). POPL '25.
-
-[Smart Contract] [Constructing Trustworthy Smart Contracts](https://arxiv.org/abs/2411.14563). POPL '25.
-
-[Smart Contract] [KindHML: Formal Verification of Smart Contracts Based on Hennessy-Milner Logic](https://arxiv.org/abs/2604.14038). POPL '26.
-
 ## IPDPS
 [Consensus][G-PBFT: A Location-based and Scalable Consensus Protocol for IoT-Blockchain Applications](http://www4.comp.polyu.edu.hk/~csbxiao/paper/2020/IPDPS_GPBFT_2020.pdf). LapHou Lao, Xiaohai Dai, Bin Xiao, and Songtao Guo. IPDPS '20.
 
 [BFT][Byzantine Generalized Lattice Agreement](https://arxiv.org/pdf/1910.05768.pdf). Giuseppe Antonio Di Luna, Emmanuelle Anceaume, and Leonardo Querzoni. IPDPS '20. 
 
-[Consensus][Banyan: Fast Rotating Leader BFT](https://doi.org/10.1145/3652892.3700788). Yann Vonlanthen, Jakub Sliwinski, Massimo Albarello, Roger Wattenhofer. IPDPS '24.
-
-[Consensus-DAG][Sailfish: A DAG-Based BFT Consensus with Improved Latency](https://arxiv.org/abs/2305.08500). IPDPS '24.
+[Consensus][Banyan: Fast Rotating Leader BFT](https://doi.org/10.1145/3652892.3700788). Yann Vonlanthen, Jakub Sliwinski, Massimo Albarello, Roger Wattenhofer. Middleware '24.
 
 
 ## EuroS&P
@@ -1041,9 +1033,9 @@ Yang Xiao, Ning Zhang, Wenjing Lou and Thomas Hou. INFOCOM'20
 
 [Consensus-BFT][Moonshot: Faster Rotating-Leader BFT Consensus with 3-Commit Latency](https://dsn2024uq.github.io/). DSN '24.
 
-[Consensus-BFT][Orthrus: Accelerating Multi-BFT Consensus through Concurrent Partial Ordering of Transactions](https://arxiv.org/abs/2501.14732). DSN '25.
+[Consensus-BFT][Orthrus: Accelerating Multi-BFT Consensus through Concurrent Partial Ordering of Transactions](https://arxiv.org/abs/2501.14732). ICDE '25.
 
-[Consensus-DAG][Towards Improving Throughput and Scalability of DAG-based BFT SMR](https://eprint.iacr.org/2025/877). DSN '25.
+[Consensus-DAG][Towards Improving Throughput and Scalability of DAG-based BFT SMR](https://eprint.iacr.org/2025/877). Nibesh Shrestha, Aniket Kate. EuroSys '26.
 
 ## CoNEXT
 [Consensus-PoW] [On the Necessity of a Prescribed Block Validity Consensus: Analyzing Bitcoin Unlimited Mining Protocol](https://eprint.iacr.org/2017/686.pdf). Ren Zhang, Bart Preneel. CoNEXT '17
@@ -1090,9 +1082,9 @@ Yang Xiao, Ning Zhang, Wenjing Lou and Thomas Hou. INFOCOM'20
 
 [Smart Contract] [Elipmoc: advanced decompilation of Ethereum smart contracts](https://dl.acm.org/doi/10.1145/3527321). Neville Grech, Sifis Lagouvardos, Ilias Tsatiris, Yannis Smaragdakis. OOPSLA '22.
 
-[Smart Contract] [PropertyGPT: LLM-driven Formal Verification of Smart Contracts through Retrieval-Augmented Property Generation](https://ar5iv.labs.arxiv.org/html/2405.02580). OOPSLA '24.
+[Smart Contract] [PropertyGPT: LLM-driven Formal Verification of Smart Contracts through Retrieval-Augmented Property Generation](https://www.ndss-symposium.org/ndss-paper/propertygpt-llm-driven-formal-verification-of-smart-contracts-through-retrieval-augmented-property-generation/). Ye Liu, Yue Xue, Daoyuan Wu, Yuqiang Sun, Yi Li, Miaolei Shi, Yang Liu. NDSS '25.
 
-[Smart Contract] [Foundational Verification of Smart Contracts through Verified Compilation](https://arxiv.org/abs/2405.08348). POPL/OOPSLA '24.
+[Smart Contract] [Foundational Verification of Smart Contracts through Verified Compilation](https://arxiv.org/abs/2405.08348). Vilhelm Sjöberg, Kinnari Dave, Daniel Britten, Maria A. Schett, Xinyuan Sun, Qinshi Wang, Sean Noble Anderson, Steve Reeves, Zhong Shao. Preprint 2024.
 
 ## ICDE
 [Storage] [CUB, a Consensus Unit-Based Storage Scheme for Blockchain System](https://ieeexplore.ieee.org/abstract/document/8509246). Zihuan Xu, Siyuan Han, Lei Chen. 2018.
@@ -1101,13 +1093,13 @@ Yang Xiao, Ning Zhang, Wenjing Lou and Thomas Hou. INFOCOM'20
 
 [Query] [Authenticated Keyword Search in Scalable Hybrid-Storage Blockchains](https://ieeexplore.ieee.org/abstract/document/9458753). Ce Zhang, Cheng Xu, Haixin Wang, Jianliang Xu, Byron Choi. 2021.
 
-[Database] [ForkBase: A Blockchain-Inspired Collaborative Database](https://ieeexplore.ieee.org/document/9835558). Ping Cheng, Xuanxuan Lu, Jiaheng Cao, Zhihan Guo, Meihui Zhang. ICDE '22.
+[Database] [ForkBase: An Efficient Storage Engine for Blockchain and Forkable Applications](https://dl.acm.org/doi/10.14778/3231751.3231762). Sheng Wang, Tien Tuan Anh Dinh, Qian Lin, Zhongle Xie, Meihui Zhang, Qingchao Cai, Gang Chen, Beng Chin Ooi, Pingcheng Ruan. PVLDB '18.
 
 [Database] [vChain: Enabling Verifiable Boolean Range Queries over Blockchain Databases](https://ieeexplore.ieee.org/document/9835430). Xiangyu Wu, Zhiying Meng, Hua Lai, Jianliang Xu. ICDE '22.
 
-[Smart Contract] [Fast and Secure Smart Contract Generation with Large Language Models](https://ieeexplore.ieee.org/document/10598070). ICDE '24.
+[Smart Contract] [Fast and Secure Smart Contract Generation with Large Language Models](https://ieeexplore.ieee.org/document/10598070). ICDE '24. (⚠️ Not found in ICDE 2024 proceedings — venue unverified)
 
-[Query] [Authenticated Queries on Multi-Chain Data](https://ieeexplore.ieee.org/document/10598065). ICDE '24.
+[Query] [V2FS: A Verifiable Virtual Filesystem for Multi-chain Query Authentication](https://ieeexplore.ieee.org/document/10598065). Haixin Wang, Cheng Xu, Xiaojie Chen, Ce Zhang, Haibo Hu, Shikun Tian, Ying Yan, Jianliang Xu. ICDE '24.
 
 ## FC
 [Economic-PoW] [Majority Is Not Enough: Bitcoin Mining Is Vulnerable](https://arxiv.org/pdf/1311.0243). Eyal I, Sirer EG. FC '14.
