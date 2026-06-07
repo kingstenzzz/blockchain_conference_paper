@@ -1087,6 +1087,16 @@ Yang Xiao, Ning Zhang, Wenjing Lou and Thomas Hou. INFOCOM'20
 
 [Consensus-BFT][Moonshot: Faster Rotating-Leader BFT Consensus with 3-Commit Latency](https://dsn2024uq.github.io/). DSN '24.
 
+[Consensus] [Zero-Loss Blockchain: Tolerating Majority Faults with Accountable Consensus](https://dsn2024uq.github.io/Proceedings/pdfs/DSN2024-6rvE3SSpzFYmysif75Dkid/410500a209/410500a209.pdf). Vincent Gramoli. DSN '24.
+
+[Smart Contract] [ReSect: A Tool for Automated Analysis of Reentrancy Transactions on Blockchains](https://dsn2026.github.io/cpaccepted.html). Y. Liu, R. Xi, K. Pattabiraman. DSN '26.
+
+[Smart Contract] [VeriExist: Blockchain-Assisted Existence-Verifiable Protocol in User-Centric Data Sharing](https://dsn2026.github.io/cpaccepted.html). Rui Han, Weizhong Qiang, Weijie Chen, Yulin Tang. DSN '26.
+
+[Application] [Structural Compliance, Governed Adaptation: Dependable Evolution in the ePayroll Governmental Blockchain Platform](https://dsn2026.github.io/cpaccepted.html). Attila Klenik, Imre Kocsis, Sándor Pap, Péter Tóth, László Gönczy, Ferenc Vágujhelyi, András Pataricza. DSN '26.
+
+[Smart Contract] [Securing Blockchain Applications by Transaction Analysis](https://dsn2026.github.io/cpaccepted.html). Rui Xi. DSN '26.
+
 [Consensus-BFT][Orthrus: Accelerating Multi-BFT Consensus through Concurrent Partial Ordering of Transactions](https://arxiv.org/abs/2501.14732). ICDE '25.
 
 [Consensus-DAG][Towards Improving Throughput and Scalability of DAG-based BFT SMR](https://eprint.iacr.org/2025/877). Nibesh Shrestha, Aniket Kate. EuroSys '26.
