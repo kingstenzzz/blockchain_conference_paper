@@ -34,6 +34,12 @@ Key Words: Topics: System Architecture, Consensus(Proof-of-X and BFT), Layer 2 (
 [Order-Fairness for Byzantine Consensus](https://eprint.iacr.org/2020/269.pdf) Mahimna Kelkar,Fan Zhang,Ari Juels. Crypto '20.
 
 [Consensus-PoS] [High-Throughput Permissionless Blockchain Consensus under Realistic Network Assumptions](). Sandro Coretti, Matthias Fitzi, Aggelos Kiayias, Giorgos Panagiotakos, Alexander Russell. Crypto '25.
+ 
+[Consensus] [Practical Settlement Bounds for Longest-Chain Consensus](https://link.springer.com/chapter/10.1007/978-3-031-38557-5_4). Peter Gaži, Ling Ren, Alexander Russell. Crypto '23.
+
+[Consensus] [Towards Permissionless Consensus in the Standard Model via Fine-Grained Complexity](https://iacr.org/cryptodb/data/paper.php?pubkey=34294). Marshall Ball, Juan Garay, Peter Hall, Aggelos Kiayias, Giorgos Panagiotakos. Crypto '24.
+
+[Consensus-PoW] [Fast Difficulty Adjustment in Proof-of-Work Consensus](). Juan Garay, Aggelos Kiayias, Yu Shen. Crypto '26.
 
 ## EUROCRYPT
 [Consensus-PoW] [The Bitcoin Backbone Protocol: Analysis and Applications](https://eprint.iacr.org/2014/765.pdf). Garay J, Kiayias A, Leonardos N. EUROCRYPT '15.
