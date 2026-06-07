@@ -971,21 +971,17 @@ Yang Xiao, Ning Zhang, Wenjing Lou and Thomas Hou. INFOCOM'20
 
 [Netowrk][Dino: A Block Transmission Protocol with Low Bandwidth Consumption and Propagation Latency](https://ieeexplore.ieee.org/abstract/document/9796837). Zhenxing Hu and Zhen Xiao. INFOCOM'22.
 
-[Smart Contract][CoChain: A Collaborative Cross-Sharding Protocol for Blockchain](https://ieeexplore.ieee.org/document/9796860). Xi Li, Zesen Wang, Jianfeng Wang, Yang Xu. INFOCOM'23.
+[Scalability][CoChain: High Concurrency Blockchain Sharding via Consensus on Consensus](https://ieeexplore.ieee.org/document/10228950). Mingzhe Li, You Lin, Jin Zhang, Wei Wang. INFOCOM'23.
 
-[Smart Contract][Latency-First Smart Contract Scheduling for Blockchain Sharding Systems](https://ieeexplore.ieee.org/document/10228944). Ruiqi Liu, Jianxiong Liu, Jianwei Liu, Zijian Yan, Yang Xu. INFOCOM'23.
+[Smart Contract][Latency-First Smart Contract: Overclock the Blockchain for a while](https://ieeexplore.ieee.org/document/10228992). Huayi Qi, Minghui Xu, Xiuzhen Cheng, Weifeng Lyu. INFOCOM'23.
 
-[Consensus][MERCURY: Fast and Efficient Consensus for Permissioned Blockchain via Deterministic Multicast](https://ieeexplore.ieee.org/document/10228922). Hao Luo, Kaiyu Zhou, Zhiyu Xu, Hao Li. INFOCOM'23.
+[Network][Mercury: Fast Transaction Broadcast in High Performance Blockchain Systems](https://ieeexplore.ieee.org/document/10228972). INFOCOM'23.
 
-[Consensus][PROPHET: High-Performance Byzantine Fault-Tolerance for Consortium Blockchain via Pipelining and Parallelism](https://ieeexplore.ieee.org/document/10228936). Zhiyu Xu, Hao Luo, Hao Li. INFOCOM'23.
+[Scalability][Prophet: Conflict-Free Sharding Blockchain via Byzantine-Tolerant Deterministic Ordering](https://ieeexplore.ieee.org/document/10228939). INFOCOM'23.
 
-[Storage][FileDES: A Blockchain-based Decentralized Encrypted Storage System with Access Control](https://ieeexplore.ieee.org/document/10694456). Yuxuan Zhu, Ming Yang, Jianbing Ni. INFOCOM'24.
+[Storage][FileDES: A Secure, Scalable and Succinct Decentralized Encrypted Storage Network](https://ieeexplore.ieee.org/document/10621113). INFOCOM'24.
 
-[Consensus][EC-Chain: Enhanced Cross-Shard Consensus for Blockchain via Efficient Commitment and Verification](https://ieeexplore.ieee.org/document/10960921). Wei Chen, Xiaodong Li, Zhiyu Xu. INFOCOM'25.
-
-[Consensus-BFT][Wireless BFT: Byzantine Fault-Tolerant Consensus for Wireless Blockchain Networks](https://ieeexplore.ieee.org/document/10960935). Yifan Liu, Hao Luo, Kaiyu Zhou. INFOCOM'25.
-
-[Privacy][PIR-DSN: Private Information Retrieval for Decentralized Storage Networks on Blockchain](https://ieeexplore.ieee.org/document/10228950). Anonymous Authors. INFOCOM'26.
+[Privacy][PIR-DSN: A Decentralized Storage Network Supporting Private Information Retrieval](https://github.com/BDS-SDU/PIR-DSN). Jiahao Zhang, Minghui Xu, Hechuan Guo, Xiuzhen Cheng. INFOCOM'26.
 
 ## ICDCS
 [Application] [Transform Blockchain into Distributed Parallel Computing Architecture for Precision Medicine](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8416392).Zonyin Shae, Jeffrey J.P. Tsai. ICDCS'18
@@ -1019,10 +1015,6 @@ Yang Xiao, Ning Zhang, Wenjing Lou and Thomas Hou. INFOCOM'20
 [Consensus][Strengthened Fault Tolerance in Byzantine Fault Tolerant Replication](https://arxiv.org/abs/2101.03715). Zhuolun Xiang, Dahlia Malkhi, Kartik Nayak, Ling Ren. ICDCS'21
 
 [Consensus][Leopard: Towards High Throughput-Preserving BFT for Large-scale Systems](https://ieeexplore.ieee.org/document/9912165). Kexin Hu, Kaiwen Guo, Qiang Tang, Zhenfeng Zhang, Hao Cheng, Zhiyang Zhao. ICDCS'22
-
-[Consensus-BFT][OrbitBFT: Consensus Protocol for Decentralized Distributed Systems with Fault Tolerance](https://ieeexplore.ieee.org/document/10939245). Jingyao Zhang, Tan Zhi, Wei Xu. ICDCS'25.
-
-[Consensus-BFT][Wireless-Async-BFT: Asynchronous Byzantine Fault Tolerant Consensus for Wireless Blockchain Networks](https://ieeexplore.ieee.org/document/10939260). Yifan Liu, Hao Luo, Kaiyu Zhou. ICDCS'25.
 
 ## DSN
 [Smart Contract][FabZK: Supporting Privacy-Preserving, Auditable Smart Contracts in Hyperledger Fabric](). Hui Kang, Ting Dai, Nerla Jean-Louis and Shu Tao. Xiaohui Gu.  DSN '19
