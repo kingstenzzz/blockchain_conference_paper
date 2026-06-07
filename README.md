@@ -579,6 +579,16 @@ Eleftherios Kokoris Kogias; Dahlia Malkhi; Alexander Spiegelman. CCS '20.
 
 [Consensus] [Diablo: A Benchmark Suite for Blockchains](). Vincent Gramoli, Rachid Guerraoui, Andrei Lebedev, Chris Natoli, Gauthier Voron. EuroSys'23
 
+[Consensus-BFT] [Dashing and Star: Byzantine Fault Tolerance with Weak Certificates](). Sisi Duan, Haibin Zhang, Xiao Sui, Baohan Huang, Changchun Mu, Gang Di, Xiaoyun Wang. EuroSys '24.
+
+[Consensus-BFT] [Bandle: Asynchronous State Machine Replication Made Efficient](). Bo Wang, Shengyun Liu, He Dong, Xiangzhe Wang, Wenbo Xu, Jingjing Zhang, Ping Zhong, Yiming Zhang. EuroSys '24.
+
+[Smart Contract] [ParallelEVM: Operation-Level Concurrent Transaction Execution for EVM-Compatible Blockchains](). Haoran Lin, Hang Feng, Yajin Zhou, Lei Wu. EuroSys '25.
+
+[Consensus-BFT] [Ladon: High-Performance Multi-BFT Consensus via Dynamic Global Ordering](https://www.cs.ubc.ca/~bestchai/papers/eurosys25-ladon.pdf). Hanzheng Lyu, Shaokang Xie, Jianyu Niu, Chen Feng, Yinqian Zhang, Ivan Beschastnikh. EuroSys '25.
+
+[Consensus-BFT] [Achilles: Efficient TEE-Assisted BFT Consensus via Rollback Resilient Recovery](). Jianyu Niu, Xiaoqing Wen, Guanlong Wu, Shengqi Liu, Jiangshan Yu, Yinqian Zhang. EuroSys '25.
+
 [Storage] [Ethane: Debloating State Data using Compact Trie for Account-based Blockchain](). Junmo Lee, Jaehun Kim, Jiyong Youn, Soo-Mook Moon. EuroSys '26.
 
 [Consensus] [OptiLog: Assigning Roles in Byzantine Consensus](). Hanish Gogada, Christian Berger, Leander Jehl, Hans P. Reiser, Hein Meling. EuroSys '26.
