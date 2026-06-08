@@ -58,7 +58,7 @@ Key Words: Topics: System Architecture, Consensus(Proof-of-X and BFT), Layer 2 (
 
 [Cryptography-Privacy][Aggregate Cash Systems: A Cryptographic Investigation of Mimblewimble](https://link.springer.com/content/pdf/10.1007%2F978-3-030-17653-2_22.pdf). Georg Fuchsbauer Michele Orrù Yannick Seurin. EUROCRYPT '19. 
 
-[Consensus-Sleepy] [Optimal Good-Case Latency for Sleepy Consensus](). EUROCRYPT '26.
+[Consensus-Sleepy] [Optimal Good-Case Latency for Sleepy Consensus](). Yuval Efron, Joachim Neu, Ling Ren, Ertem Nusret Tas. EUROCRYPT '26.
 
 [Consensus-MEV] [Ordering Transactions with Bounded Unfairness: Definitions, Complexity and Constructions](https://doi.org/10.1007/978-3-031-58734-4_2). Aggelos Kiayias, Nikos Leonardos, Yu Shen. EUROCRYPT '24.
 
@@ -192,7 +192,7 @@ Alexei Zamyatin, Dominik Harz, Joshua Lind, Panayiotis Panayiotou, Arthur Gervai
 
 [Consensus] [Fast Deterministically Safe Proof-of-Work Consensus](). Ali Farahbakhsh, Giuliano Losa, Youer Pu, Lorenzo Alvisi. IEEE S&P '26.
 
-[Consensus-MEV] [MAD-DAG: Protecting Blockchain Consensus from MEV](). IEEE S&P '26.
+[Consensus-MEV] [MAD-DAG: Protecting Blockchain Consensus from MEV](). Roi Bar-Zur, Aviv Tamar, Ittay Eyal. IEEE S&P '26.
 
 [Crypto] [New Constructions of Functional Adaptor Signatures: Broader Functions and Improved Efficiency](). Nikhil Vanjmani, Garrett Greiner, Sri AravindaKrishnan Thyagarajan, Pratik Soni. IEEE S&P '26.
 
@@ -202,7 +202,7 @@ Alexei Zamyatin, Dominik Harz, Joshua Lind, Panayiotis Panayiotou, Arthur Gervai
 
 [Consensus] [Practical Asynchronous Distributed Key Reconfiguration and Its Applications](). Hanwen Feng, Yingzi Gao, Yuan Lu, Qiang Tang, Jing Xu. IEEE S&P '26.
 
-[Consensus-PoS] [A Liveness Attack on Ethereum Proof-of-Stake](). IEEE S&P '26.
+[Consensus-PoS] [A Liveness Attack on Ethereum Proof-of-Stake](). Mingfei Zhang, Rujia Li, Xueqian Lu, Sisi Duan. IEEE S&P '26.
 
 
 ## USENIX SECURITY
@@ -273,23 +273,23 @@ and Edward W. Felten. USENIX '18 Security Symposium.
 
 [Payment Channel] [Thunderdome: Timelock-Free Rationally-Secure Virtual Channels](). Zeta Avarikioti, Yuheng Wang, Yuyi Wang. USENIX Security '25.
 
-[Crypto] [BulletCT: Towards More Scalable Ring Confidential Transactions With Transparent Setup](). USENIX Security '25.
+[Crypto] [BulletCT: Towards More Scalable Ring Confidential Transactions With Transparent Setup](). Nan Wang, Qianhui Wang, Dongxi Liu, Muhammed F. Esgin, Alsharif Abuadbba. USENIX Security '25.
 
-[Smart Contract] [Secure Virtual Channels](). USENIX Security '25.
+[Smart Contract] [Secure Virtual Channels](). Zeta Avarikioti, Yuheng Wang, Yuyi Wang. USENIX Security '25.
 
 [Crypto-Meme] [A Midsummer Meme's Dream: Investigating Market Manipulations in the Meme Coin Ecosystem](). Alberto Maria Mongardini, Alessandro Mei. USENIX Security '26.
 
-[Sharding] [Logos: Robust Sharding Blockchain With Fast Processing and Optimal Cross-Shard Overhead](). USENIX Security '26.
+[Sharding] [Logos: Robust Sharding Blockchain With Fast Processing and Optimal Cross-Shard Overhead](). Yizhong Liu, Boyu Zhao, Yuxuan Hu, Haojun Tan, Feiang Ran, Andi Liu, Zhuocheng Pan, Yuan Lu, Song Bian, Jianwei Liu, Zhenyu Guan. USENIX Security '26.
 
-[Bridge] [Bridging Bitcoin to Second Layers via BITVM2](). USENIX Security '26.
+[Bridge] [Bridging Bitcoin to Second Layers via BITVM2](). Robin Linus Woll, Lukas Aumayr, Zeta Avarikioti, Matteo Maffei, Andrea Pelosi, Orfeas Stefanos Thyfronitis Litos, Christos Stefo, David Tse, Alexei Zamyatin. USENIX Security '26.
 
-[Smart Contract] [Revealing the Dark Side of Smart Accounts: An Empirical Study of EIP-7702 Incurred Risks in Blockchain Ecosystem](). Mingyuan Huang, Han Liu, et al. USENIX Security '26.
+[Smart Contract] [Revealing the Dark Side of Smart Accounts: An Empirical Study of EIP-7702 Incurred Risks in Blockchain Ecosystem](). Mingyuan Huang, Han Liu, Shuo Yang, Daoyuan Wu, Shuai Wang. USENIX Security '26.
 
-[Wallet] [PASS: A Provenanced Access Subaccount System for Blockchain Wallets](). USENIX Security '26.
+[Wallet] [PASS: A Provenanced Access Subaccount System for Blockchain Wallets](). Jay Yu, Shunfan Zhou, Hang Yin, Brian Seong. USENIX Security '26.
 
-[Smart Contract-Solana] [SseRex: Practical Symbolic Execution of Solana Smart Contracts](). USENIX Security '26.
+[Smart Contract-Solana] [SseRex: Practical Symbolic Execution of Solana Smart Contracts](). Tobias Cloosters, Pascal Winkler, Jens-Rene Giesen, Ghassan Karame, Lucas Davi. USENIX Security '26.
 
-[DeFi] [TxRay: Agentic Postmortem of Live Blockchain Attacks](). USENIX Security '26.
+[DeFi] [TxRay: Agentic Postmortem of Live Blockchain Attacks](). Ziyue Wang, Jiangshan Yu, Kaihua Qin, Dawn Song, Arthur Gervais, Liyi Zhou. USENIX Security '26.
 
 ## NDSS
 [Economic-Smart Contracts] ["Zeus": Analyzing Safety of Smart Contracts](http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2018/02/ndss2018_09-1_Kalra_paper.pdf). Kalra S, Goel S, Dhawan M, Sharma S. NDSS '18.
@@ -364,17 +364,17 @@ Charlie Hou, Mingxun Zhou, Yan Ji and Phil Daian, Florian Tramèr, Giulia Fanti,
 
 [Consensus-Ethereum] [BunnyFinder: Finding Incentive Flaws for Ethereum Consensus](). Rujia Li, Mingfei Zhang, Xueqian Lu, Wenbo Xu, Ying Yan, Sisi Duan. NDSS '26.
 
-[Consensus-TEE] [Pallas and Aegis: Rollback Resilience in TEE-Aided Blockchain Consensus](). NDSS '26.
+[Consensus-TEE] [Pallas and Aegis: Rollback Resilience in TEE-Aided Blockchain Consensus](). Jérémie Decouchant, David Kozhaya, Vincent Rahli, Jiangshan Yu. NDSS '26.
 
-[DeFi] [HOUSTON: Real-Time Anomaly Detection of Attacks against Ethereum DeFi Protocols](). NDSS '26.
+[DeFi] [HOUSTON: Real-Time Anomaly Detection of Attacks against Ethereum DeFi Protocols](). Dongyu Meng, Fabio Gritti, Robert McLaughlin, Nicola Ruaro, Ilya Grishchenko, Christopher Kruegel, Giovanni Vigna. NDSS '26.
 
 [SNARK] [Cirrus: Performant and Accountable Distributed SNARK](). Wenhao Wang, Fangyan Shi, Dani Vilardell, Fan Zhang. NDSS '26.
 
-[Sharding] [Kronos: A Secure and Generic Sharding Blockchain Consensus with Optimized Overhead](). NDSS '26.
+[Sharding] [Kronos: A Secure and Generic Sharding Blockchain Consensus with Optimized Overhead](). Yizhong Liu, Andi Liu, Yuan Lu, Zhuocheng Pan, Yinuo Li, Jianwei Liu, Song Bian, Mauro Conti. NDSS '26.
 
-[Auction] [Scalable Off-Chain Auctions](). NDSS '26.
+[Auction] [Scalable Off-Chain Auctions](). Mohsen Minaei, Ranjit Kumaresan, Andrew Beams, Pedro Moreno-Sanchez, Yibin Yang, Srinivasan Raghuraman, Panagiotis Chatzigiannis, Mahdi Zamani, Duc V. Le. NDSS '26.
 
-[Phishing] [CtPhishCapture: Uncovering Credential-Theft-Based Phishing Scams Targeting Cryptocurrency Wallets](). NDSS '26.
+[Phishing] [CtPhishCapture: Uncovering Credential-Theft-Based Phishing Scams Targeting Cryptocurrency Wallets](). Hui Jiang, Zhenrui Zhang, Xiang Li, Yan Li, Anpeng Zhou, Chenghui Wu, Man Hou, Jia Zhang, Zongpeng Li. NDSS '26.
 
 [Privacy] [Distributed Broadcast Encryption for Confidential Interoperability across Private Blockchains](). Angelo De Caro, Kaoutar Elkhiyaoui, Sandeep Nishad, Sikhar Patranabis, Venkatraman Ramakrishna. NDSS '26.
 
@@ -382,9 +382,9 @@ Charlie Hou, Mingxun Zhou, Yan Ji and Phil Daian, Florian Tramèr, Giulia Fanti,
 
 [Consensus] [Consensus in the Known Participation Model with Byzantine Faults and Sleepy Replicas](). Chenxu Wang, Sisi Duan, Minghui Xu, Feng Li, Xiuzhen Cheng. NDSS '26.
 
-[Consensus-SSLE] [Mobius: Enabling Byzantine-Resilient Single Secret Leader Election with Uniquely Verifiable State](). NDSS '26.
+[Consensus-SSLE] [Mobius: Enabling Byzantine-Resilient Single Secret Leader Election with Uniquely Verifiable State](). Hanyue Dou, Peifang Ni, Yingzi Gao, Jing Xu. NDSS '26.
 
-[DeFi-LLM] [Auditable LLM Arbiter for DeFi Security: A Hybrid Graph-of-Thoughts Approach to Intent–Transaction Alignment](). NDSS '26.
+[DeFi-LLM] [Auditable LLM Arbiter for DeFi Security: A Hybrid Graph-of-Thoughts Approach to Intent–Transaction Alignment](). Duanyi Yao, Siddhartha Jagannath, Baltasar Aroso, Vyas Krishnan, Ding Zhao. NDSS '26.
 
 
 
@@ -536,15 +536,15 @@ Eleftherios Kokoris Kogias; Dahlia Malkhi; Alexander Spiegelman. CCS '20.
 
 [Consensus] [Sui Lutris: A Blockchain Combining Broadcast and Consensus](). Sam Blackshear, Andrey Chursin, George Danezis, Anastasios Kichidis, Lefteris Kokoris-Kogias, Xun Li, Mark Logan, Ashok Menon, Todd Nowacki, Alberto Sonnino, Brandon Williams, Lu Zhang. CCS '24.
 
-[ZK-Rollup] [Towards a Formal Foundation for Blockchain ZK Rollups](). CCS '25.
+[ZK-Rollup] [Towards a Formal Foundation for Blockchain ZK Rollups](). Stefanos Chaliasos, Denis Firsov, Benjamin Livshits. CCS '25.
 
-[Consensus-Fairness] [Ambush Attack on Batch-Order Fair Byzantine Consensus](). CCS '25.
+[Consensus-Fairness] [Ambush Attack on Batch-Order Fair Byzantine Consensus](). Eunchan Park, Taeung Yoon, Hocheol Nam, Deepak Maram, Min Suk Kang. CCS '25.
 
-[Consensus] [Aegis: Tethering a Blockchain with Primary-Chain Stake](). CCS '25.
+[Consensus] [Aegis: Tethering a Blockchain with Primary-Chain Stake](). Yogev Bar-On, Roi Bar-Zur, Omer Ben-Porat, Nimrod Cohen, Ittay Eyal, Matan Sitbon. CCS '25.
 
-[Security] [Denial of Sequencing Attacks in Ethereum Layer 2 Rollups](). CCS '25.
+[Security] [Denial of Sequencing Attacks in Ethereum Layer 2 Rollups](). Zihao Li, Zhiyuan Sun, Zheyuan He, Jinzhao Chu, Hao Zhou, Xiapu Luo, Ting Chen, Yinqian Zhang. CCS '25.
 
-[Sharding] [Camael: Realizing Corrupted-Shard Tolerance in Sharding Blockchain](). CCS '25.
+[Sharding] [Camael: Realizing Corrupted-Shard Tolerance in Sharding Blockchain](). Yizhong Liu, Andi Liu, Yuan Lu, Zhuocheng Pan, Yinuo Li, Jianwei Liu, Song Bian, Mauro Conti. CCS '25.
 
 [Consensus] [Larger Scale Offers Better Security in the Nakamoto-style Blockchain](https://arxiv.org/abs/2509.05708). Junjie Hu. CCS '26.
 
@@ -694,7 +694,7 @@ Eleftherios Kokoris Kogias; Dahlia Malkhi; Alexander Spiegelman. CCS '20.
 
 [Database] [PoneglyphDB: Efficient Non-interactive Zero-Knowledge Proofs for Arbitrary SQL-Query Verification](). Binbin Gu, Juncheng Fang, Faisal Nawab. SIGMOD '25.
 
-[Database] [Authenticating Multi-Chain Queries: Verifiable Virtual Filesystem Is All You Need](). SIGMOD '25.
+[Database] [Authenticating Multi-Chain Queries: Verifiable Virtual Filesystem Is All You Need](). Haixin Wang, Cheng Xu, Ce Zhang, Haibo Hu, Shikun Tian, Shenglong Chen, Ying Yan, Jianliang Xu. SIGMOD '25.
 
 [Consensus-Sharding] [DAG of DAGs: Order-Fairness Made Practical](). Heena Nagda, Sidharth Sankhe, Sakshi Sinha, Keon Attarha, Mohammad Javad Amiri, Boon Thau Loo. SIGMOD '26.
 
@@ -810,33 +810,33 @@ Carsten Binnig, Arvind Arasu, Donald Kossmann, Ravi Ramamurthy. VLDB'19.
 
 [Smart Contract] [ReVulDL: Reentrancy Vulnerability Detection and Localization: A Deep Learning Based Two-phase Approach](). Zhuo Zhang, Yan Lei, Meng Yan, Yue Yu, Jiachi Chen, Shangwen Wang, Xiaoguang Mao. ASE '22.
 
-[Smart Contract] [AdvSCanner: Generating Adversarial Smart Contracts to Exploit Reentrancy Vulnerabilities Using LLM and Static Analysis](). ASE '24.
+[Smart Contract] [AdvSCanner: Generating Adversarial Smart Contracts to Exploit Reentrancy Vulnerabilities Using LLM and Static Analysis](). Yin Wu, Xiaofei Xie, Chenyang Peng, Dijun Liu, Hao Wu, Ming Fan, Ting Liu, Haijun Wang. ASE '24.
 
-[Smart Contract] [Skyeye: Detecting Imminent Attacks via Analyzing Adversarial Smart Contracts](). ASE '24.
+[Smart Contract] [Skyeye: Detecting Imminent Attacks via Analyzing Adversarial Smart Contracts](). Haijun Wang, Yurui Hu, Hao Wu, Dijun Liu, Chenyang Peng, Yin Wu, Ming Fan, Ting Liu. ASE '24.
 
 [Smart Contract] [COBRA: Interaction-Aware Bytecode-Level Vulnerability Detector for Smart Contracts](). Wenkai Li, Xiaoqi Li, Zongwei Li, Yuqing Zhang. ASE '24.
 
-[Smart Contract] [ContractTinker: LLM-Empowered Vulnerability Repair for Real-World Smart Contracts](). ASE '24.
+[Smart Contract] [ContractTinker: LLM-Empowered Vulnerability Repair for Real-World Smart Contracts](). Che Wang, Jiashuo Zhang, Jianbo Gao, Libin Xia, Zhi Guan, Zhong Chen. ASE '24.
 
-[Smart Contract] [Oracle-Guided Vulnerability Diversity and Exploit Synthesis of Smart Contracts Using LLMs](). ASE '24.
+[Smart Contract] [Oracle-Guided Vulnerability Diversity and Exploit Synthesis of Smart Contracts Using LLMs](). Mojtaba Eshghie, Cyrille Artho. ASE '24.
 
-[Smart Contract] [Semantic Sleuth: Identifying Ponzi Contracts via Large Language Models](). ASE '24.
+[Smart Contract] [Semantic Sleuth: Identifying Ponzi Contracts via Large Language Models](). Cong Wu, Jing Chen, Ziwei Wang, Ruichao Liang, Ruiying Du. ASE '24.
 
-[Smart Contract] [PROMFUZZ: Leveraging LLM-Driven and Bug-Oriented Composite Analysis for Detecting Functional Bugs in Smart Contracts](). ASE '25.
+[Smart Contract] [PROMFUZZ: Leveraging LLM-Driven and Bug-Oriented Composite Analysis for Detecting Functional Bugs in Smart Contracts](). Xingshuang Lin, Qinge Xie, Binbin Zhao, Yuan Tian, Saman Zonouz, Na Ruan, Jiliang Li, Raheem Beyah, Shouling Ji. ASE '25.
 
-[Smart Contract] [VeriExploit: Automatic Bug Reproduction in Smart Contracts via LLMs and Formal Methods](). ASE '25.
+[Smart Contract] [VeriExploit: Automatic Bug Reproduction in Smart Contracts via LLMs and Formal Methods](). Chenfeng Wei, Shiyu Cai, Yiannis Charalambous, Tong Wu, Sangharatna Godboley, Lucas C. Cordeiro. ASE '25.
 
-[Smart Contract] [ACTaint: Agent-Based Taint Analysis for Access Control Vulnerabilities in Smart Contracts](). ASE '25.
+[Smart Contract] [ACTaint: Agent-Based Taint Analysis for Access Control Vulnerabilities in Smart Contracts](). Huarui Lin, Zhipeng Gao, Jiachi Chen, Xiang Chen, Xiaohu Yang, Lingfeng Bao. ASE '25.
 
-[Smart Contract] [Have We Solved Access Control Vulnerability Detection in Smart Contracts? A Benchmark Study](). ASE '25.
+[Smart Contract] [Have We Solved Access Control Vulnerability Detection in Smart Contracts? A Benchmark Study](). Han Liu, Daoyuan Wu, Yuqiang Sun, Shuai Wang, Yang Liu. ASE '25.
 
-[Smart Contract] [FaultSeeker: LLM-Empowered Framework for Blockchain Transaction Fault Localization](). ASE '25.
+[Smart Contract] [FaultSeeker: LLM-Empowered Framework for Blockchain Transaction Fault Localization](). Kairan Sun, Zhengzi Xu, Kaixuan Li, Lyuye Zhang, Yuqiang Sun, Liwei Tan, Yang Liu. ASE '25.
 
-[Smart Contract] [Soleker: Uncovering Vulnerabilities in Solana Smart Contracts](). ASE '25.
+[Smart Contract] [Soleker: Uncovering Vulnerabilities in Solana Smart Contracts](). Kunsong Zhao, Yunpeng Tian, Zuchao Ma, Xiapu Luo. ASE '25.
 
-[Smart Contract] [SolContractEval: A Benchmark for Evaluating Contract-Level Solidity Code Generation](). ASE '25.
+[Smart Contract] [SolContractEval: A Benchmark for Evaluating Contract-Level Solidity Code Generation](). Zhifan Ye, Jiachi Chen, Zhenzhe Shao, Lingfeng Bao, Xiaohu Yang, Zhongxin Liu. ASE '25.
 
-[Smart Contract] [PrefGen: A Preference-Driven Methodology for Secure Yet Gas-Efficient Smart Contract Generation](). ASE '25.
+[Smart Contract] [PrefGen: A Preference-Driven Methodology for Secure Yet Gas-Efficient Smart Contract Generation](). Zhiyuan Peng, Xin Yin, Zijie Zhou, Chenhao Ying, Chao Ni, Yuan Luo. ASE '25.
 
 ## ISSTA
 [Smart Contract] [Exploiting The Laws of Order in Smart Contracts](https://dl.acm.org/doi/10.1145/3293882.3330560). Aashish Kolluri, Ivica Nikoli ́ c, Ilya Sergey, Aquinas Hobor, Prateek Saxena. ISSTA '19
@@ -1217,15 +1217,15 @@ Yang Xiao, Ning Zhang, Wenjing Lou and Thomas Hou. INFOCOM'20
 
 [Query] [V2FS: A Verifiable Virtual Filesystem for Multi-chain Query Authentication](https://ieeexplore.ieee.org/document/10598065). Haixin Wang, Cheng Xu, Xiaojie Chen, Ce Zhang, Haibo Hu, Shikun Tian, Ying Yan, Jianliang Xu. ICDE '24.
 
-[Consensus] [Scaling Blockchain Consensus via a Robust Shared Mempool](). ICDE '23.
+[Consensus] [Scaling Blockchain Consensus via a Robust Shared Mempool](). Fangyu Gai, Jianyu Niu, Ivan Beschastnikh, Chen Feng, Sheng Wang. ICDE '23.
 
-[Sharding] [RoarChain: A Robust Sharding Blockchain System for Enterprise Consortium](). ICDE '26.
+[Sharding] [RoarChain: A Robust Sharding Blockchain System for Enterprise Consortium](). Yuan Sui, Xiaochun Yang, Bin Wang, Yujie Zhang, Lina Wang. ICDE '26.
 
-[Smart Contract] [Banknote-Chain: Achieving User-Incentivized Parallelism in Blockchain via a Banknote-Inspired Transaction Model](). ICDE '26.
+[Smart Contract] [Banknote-Chain: Achieving User-Incentivized Parallelism in Blockchain via a Banknote-Inspired Transaction Model](). Zhiyu Ma, Xiaofeng Li, He Zhao, Tong Zhou, Nianzu Sheng, Haotian Cheng. ICDE '26.
 
-[Storage] [COLE+: Towards Practical Column-based Learned Storage for Blockchain Systems](). ICDE '26.
+[Storage] [COLE+: Towards Practical Column-based Learned Storage for Blockchain Systems](). Ce Zhang, Cheng Xu, Haibo Hu, Jianliang Xu. ICDE '26.
 
-[Smart Contract] [Geco: A Confidentiality-Preserving and High-Performance Permissioned Blockchain Framework for General Smart Contracts](). ICDE '26.
+[Smart Contract] [Geco: A Confidentiality-Preserving and High-Performance Permissioned Blockchain Framework for General Smart Contracts](). Songxiao Guo, Rongxin Guan, Ji Qi, Zongyuan Zhang, Tianyang Duan, Sen Wang, Yanjun Wu, Heming Cui. ICDE '26.
 
 ## FC
 [Economic-PoW] [Majority Is Not Enough: Bitcoin Mining Is Vulnerable](https://arxiv.org/pdf/1311.0243). Eyal I, Sirer EG. FC '14.
