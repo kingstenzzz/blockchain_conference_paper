@@ -39,7 +39,17 @@ Key Words: Topics: System Architecture, Consensus(Proof-of-X and BFT), Layer 2 (
 
 [Consensus] [Towards Permissionless Consensus in the Standard Model via Fine-Grained Complexity](https://iacr.org/cryptodb/data/paper.php?pubkey=34294). Marshall Ball, Juan Garay, Peter Hall, Aggelos Kiayias, Giorgos Panagiotakos. Crypto '24.
 
-[Consensus-PoW] [Fast Difficulty Adjustment in Proof-of-Work Consensus](). Juan Garay, Aggelos Kiayias, Yu Shen. Crypto '26.
+[Consensus-PoW] [Fast Difficulty Adjustment in Proof-of-Work Consensus](https://eprint.iacr.org/2026/1116). Juan Garay, Aggelos Kiayias, Yu Shen. Crypto '26.
+
+[Consensus] [Permissionless Consensus from a Common Random String](https://eprint.iacr.org/2026/1179). Damiano Abram, Marshall Ball, Juan Garay, Aggelos Kiayias. Crypto '26.
+
+[Consensus] [Faster Leader-Based Consensus via Certificates of Exclusivity and Overlapping Iterations](https://eprint.iacr.org/2026/1214). Matthieu Rambaud. Crypto '26.
+
+[Consensus] [Gatling: Rapid-Fire Consensus from Parallel Composition](https://eprint.iacr.org/2026/1269). Giulia Scaffino, Max Resnick, Joachim Neu. Crypto '26.
+
+[Consensus-Sleepy] [On the Communication Complexity of Sleepy Consensus](https://eprint.iacr.org/2026/960). Qiang Tang, Yuchen Ye. Crypto '26.
+
+[Consensus] [BumbleBee: Best-of-Both-Worlds MVBA with Optimal Communication, Latency and Resilience Tradeoffs](https://eprint.iacr.org/2026/989). Fatima Elsheimy, Simon Holmgaard Kamp. Crypto '26.
 
 ## EUROCRYPT
 [Consensus-PoW] [The Bitcoin Backbone Protocol: Analysis and Applications](https://eprint.iacr.org/2014/765.pdf). Garay J, Kiayias A, Leonardos N. EUROCRYPT '15.
@@ -204,6 +214,8 @@ Alexei Zamyatin, Dominik Harz, Joshua Lind, Panayiotis Panayiotou, Arthur Gervai
 
 [Consensus-PoS] [A Liveness Attack on Ethereum Proof-of-Stake](). Mingfei Zhang, Rujia Li, Xueqian Lu, Sisi Duan. IEEE S&P '26.
 
+[Consensus] [Prrr: Personal Random Rewards for Blockchain Reporting](https://ieee.ieee-security.org/TC/SP2026/accepted_and_awards.html). Hongyin Chen, Yubin Ke, Xiaotie Deng, Ittay Eyal. IEEE S&P '26.
+
 
 ## USENIX SECURITY
 [Network-security] [Eclipse Attacks on Bitcoin's Peer-to-Peer Network](https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-heilman.pdf). Heilman E, Kendler A, Zohar A, Goldberg S. USENIX '15 Security Symposium.
@@ -290,6 +302,14 @@ and Edward W. Felten. USENIX '18 Security Symposium.
 [Smart Contract-Solana] [SseRex: Practical Symbolic Execution of Solana Smart Contracts](). Tobias Cloosters, Pascal Winkler, Jens-Rene Giesen, Ghassan Karame, Lucas Davi. USENIX Security '26.
 
 [DeFi] [TxRay: Agentic Postmortem of Live Blockchain Attacks](). Ziyue Wang, Jiangshan Yu, Kaihua Qin, Dawn Song, Arthur Gervais, Liyi Zhou. USENIX Security '26.
+
+[Consensus] [Perils of Parallelism: Transaction Fee Mechanisms under Execution Uncertainty](https://eprint.iacr.org/2026/649). Sarisht Wadhwa, Aviv Yaish, Fan Zhang, Kartik Nayak. USENIX Security '26.
+
+[Payment] [When HTTP 402 Meets the Blockchain: Risks on Emerging x402 Payments](https://wqqqy.cn/publication/wang-2026-usenix/). Qinying Wang. USENIX Security '26.
+
+[Storage] [MHOT: Height-Optimized Authenticated Data Structure for Blockchain State Commitment](https://arxiv.org/abs/2606.11736). Sipeng Xie, Qianhong Wu, Mingxi Li, Qiyuan Gao, Bo Qin, Qin Wang. USENIX Security '26.
+
+[Wallet-Security] [Designing Wallet-Based User Intervention for Approval Phishing Mitigation](https://eprint.iacr.org/2026/1310). Maggie Yongqi Guan, Yuqi Xu, Yunlong Mao, Wei Tong, Xiaobo Zhou, Kanye Ye Wang. USENIX Security '26.
 
 ## NDSS
 [Economic-Smart Contracts] ["Zeus": Analyzing Safety of Smart Contracts](http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2018/02/ndss2018_09-1_Kalra_paper.pdf). Kalra S, Goel S, Dhawan M, Sharma S. NDSS '18.
@@ -483,6 +503,8 @@ Eleftherios Kokoris Kogias; Dahlia Malkhi; Alexander Spiegelman. CCS '20.
 [Consensus] [Bolt-Dumbo Transformer: Asynchronous Consensus As Fast As the Pipelined BFT](https://arxiv.org/pdf/2103.09425.pdf). Yuan Lu, Zhenliang Lu, Qiang Tang. CCS '22. 
 
 [Consensus] [Bullshark: DAG BFT Protocols Made Practical](https://arxiv.org/abs/2209.05633). Alexander Spiegelman, Neil Giridharan, Alberto Sonnino, Lefteris Kokoris-Kogias. CCS '22. 
+
+[Consensus] [Bullshark: The Partially Synchronous Version](https://arxiv.org/abs/2209.05633). Alexander Spiegelman, Neil Giridharan, Alberto Sonnino, Lefteris Kokoris-Kogias. CCS '22.
 
 [Consensus] [Constant Latency in Sleepy Consensus](). Atsuki Momose, Ling Ren. CCS '22.
 
@@ -793,6 +815,24 @@ Carsten Binnig, Arvind Arasu, Donald Kossmann, Ravi Ramamurthy. VLDB'19.
 
 [Smart Contract] [Efficiently Detecting Reentrancy Vulnerabilities in Complex Smart Contracts](https://arxiv.org/abs/2403.11254). Zexu Wang, Jiachi Chen, Yanlin Wang, Yu Zhang, Weizhe Zhang, Zibin Zheng. ESEC/FSE '24.
 
+[Smart Contract] [Verifying Smart Contract Security Against Re-entrancy Attacks through Relational Value Analysis](https://conf.researchr.org/details/fse-2026/fse-2026-research-papers/160/). Divya Rathore, Kartik Nagar. ESEC/FSE '26.
+
+[Smart Contract] [SmartCoder-R1: Towards Secure and Explainable Smart Contract Generation with Security-Aware Group Relative Policy Optimization](). Lei Yu, Jingyuan Zhang, Xin Wang, Li Yang, Fengjun Zhang, Jiajia Ma. ESEC/FSE '26.
+
+[Smart Contract] [V2E: Validating Smart Contract Vulnerabilities through Profit-driven Exploit Generation and Execution](). Jingwen Zhang, Yuhong Nan, Kaiwen Ning, Mingxi Ye, Wei Li, Yuming Xiao, Yuming Feng, Weizhe Zhang, Zibin Zheng. ESEC/FSE '26.
+
+[Smart Contract] [SmartIFSyn: Automated Information Flow Security Policy Synthesis for Smart Contracts](). ESEC/FSE '26.
+
+[Smart Contract] [Odyssey: Hunting Smart Contract Vulnerabilities with Fine-grained State Modeling and Exploration](https://conf.researchr.org/details/fse-2026/fse-2026-research-papers/102/). ESEC/FSE '26.
+
+[Smart Contract] [SmarTrim: Symbolic Execution for Smart Contracts Powered by Redundant Transaction-Sequence Pruning](https://conf.researchr.org/details/fse-2026/fse-2026-research-papers/121/). ESEC/FSE '26.
+
+[Smart Contract] [SCPatcher: Automated Smart Contract Code Repair via Retrieval-Augmented Generation and Knowledge Graph](). ESEC/FSE '26.
+
+[Smart Contract] [AllocScope: Towards Automated Vetting of Allocation Manipulation in Smart Contracts](). ESEC/FSE '26.
+
+[Smart Contract-Audit] [SCAR: Mining and Structuring Smart Contract Security Audit Reports](). Ilham Qasse, Po-Yu Tseng, Mohammad Hamdaqa, Gísli Hjálmtýsson. ESEC/FSE '26.
+
 ## ASE
 [Smart Contract] [ContractFuzzer: fuzzing smart contracts for vulnerability detection](https://doi.org/10.1145/3238147.3238177). Bo Jiang, Ye Liu, W. K Chan. ASE '18.
 
@@ -890,6 +930,21 @@ Wentian Yan, Jianbo Gao, Zhenhao Wu, Yue Li, Zhi Guan, Qingshan Li, Zhong Chen. 
 [Smart Contract] [Copy-and-Paste? Identifying EVM-Inequivalent Code Smells in Multi-chain Reuse Contracts](https://conf.researchr.org/details/issta-2025/issta-2025-papers/45/). ISSTA '25.
 
 [DeFi] [Automated Attack Synthesis for Constant Product Market Makers](https://conf.researchr.org/details/issta-2025/issta-2025-papers). ISSTA '25.
+
+[Smart Contract] [Augmenting Multi-Technique Static Analysis with Large Language Models: A Neuro-Symbolic Approach to Smart Contract Vulnerability Detection](). Junxiang Wang, Fu Song, Miaomiao Zhang, Bowen Du, Rongcan Pei. ISSTA '26.
+
+[Smart Contract-Move] [Belobog: Move Language Fuzzing Framework For Real-World Smart Contracts](https://conf.researchr.org/details/issta-2026/issta-2026-research-papers). Ziqiao Kong, Wanxu Xia, Zhengwei Li, Yi Lu, Pan Li, Liqun Yang, Yang Liu, Xiapu Luo, Shaohua Li. ISSTA '26.
+
+[Smart Contract] [EventSpec: Defining and Detecting Event-Semantic Issues in Blockchain Ecosystems](https://conf.researchr.org/details/issta-2026/issta-2026-research-papers). Yixuan Liu, Yuxin Dong, Ye Liu, Yin Wu, Chengxuan Zhang, Xiapu Luo, Yi Li. ISSTA '26.
+
+[DeFi] [RollGain: Exploiting Ethereum Rollback Semantics: Profit-Driven Attack Synthesis and Off-Chain Misinterpretation Testing](https://liyiweb.com/publication/Liu2026EER/). Yixuan Liu, Xinlei Li, Yi Li. ISSTA '26.
+
+[Smart Contract] [TrapHunter: Exposing Covert Pathways in Trap Token Contracts](https://liyiweb.com/publication/Wu2026TEC/). Yin Wu, Yixuan Liu, Yi Li, Chenyang Peng, Hao Wu, Ming Fan, Ting Liu, Haijun Wang. ISSTA '26.
+
+[Smart Contract] [RPCSpecter: Detecting Blockchain RPC Bugs through Specification-Driven Fuzzing](https://conf.researchr.org/details/issta-2026/issta-2026-research-papers). Yuming Xiao, Yuhong Nan, Zhijie Zhong, Mingxi Ye, Zibin Zheng. ISSTA '26.
+
+[Smart Contract] [SmartDecompiler-R1: Enhancing Faithful and Explainable Smart Contract Bytecode Decompilation with Reinforcement Learning](https://conf.researchr.org/details/issta-2026/issta-2026-research-papers). Yilun Ma, Lingxiao Tang, Li Lin, Zhipeng Gao, Jiachi Chen, Xin Xia, Lingfeng Bao. ISSTA '26.
+
 ## POPL
 
 [Smart Contract] [Online detection of effectively callback free objects with applications to smart contracts](https://dl.acm.org/doi/10.1145/3158136). SHELLY GROSSMAN, ITTAI ABRAHAM, GUY GOLAN-GUETA, YAN MICHALEVSKY, NOAM RINETZKY, MOOLY SAGIV, YONI ZOHAR. POPL '18.
@@ -1197,6 +1252,12 @@ Yang Xiao, Ning Zhang, Wenjing Lou and Thomas Hou. INFOCOM'20
 [Security] [Divide and Conquer: A Compositional Approach to Game-Theoretic Security](https://2025.splashcon.org/details/OOPSLA/141/). Ivana Bocevska, Anja Petković Komel, Laura Kovács, Sophie Rain, Michael Rawson. OOPSLA '25.
 
 [Smart Contract] [SymGPT: Auditing Smart Contracts via Combining Symbolic Execution with Large Language Models](https://2026.splashcon.org/details/oopsla-2026/18/). OOPSLA '26.
+
+[Smart Contract] [APIDiffer: When Specifications Meet Reality: Uncovering API Inconsistencies in Ethereum Infrastructure](https://2026.splashcon.org/details/oopsla-2026/20/). OOPSLA '26.
+
+[Smart Contract] [An Effective and Cost-Efficient Agentic Framework for Ethereum Smart Contract Auditing](https://doi.org/10.1145/3798219). Xiaohui Hu, Wun Yu Chan, Yuejie Shi, Qumeng Sun, Wei-Cheng Wang, Chiachih Wu, Haoyu Wang, Ningyu He. OOPSLA '26.
+
+[Smart Contract] [All Your Tokens are Belong to Us: Demystifying Address Verification Vulnerabilities in Solidity Smart Contracts](https://doi.org/10.1145/3798219). Tianle Sun, Ningyu He, Jiang Xiao, Yinliang Yue, Xiapu Luo, Haoyu Wang. OOPSLA '26.
 
 [Smart Contract] [PropertyGPT: LLM-driven Formal Verification of Smart Contracts through Retrieval-Augmented Property Generation](https://www.ndss-symposium.org/ndss-paper/propertygpt-llm-driven-formal-verification-of-smart-contracts-through-retrieval-augmented-property-generation/). Ye Liu, Yue Xue, Daoyuan Wu, Yuqiang Sun, Yi Li, Miaolei Shi, Yang Liu. NDSS '25.
 
